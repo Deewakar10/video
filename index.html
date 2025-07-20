@@ -6,7 +6,14 @@
         body{
             margin: 0;
             padding: 0;
-            background-color: green;
+            
+             background-image: url('flag2.jpg');  /* Make sure this image is in the same folder */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            margin: 0;
+            padding: 0;
+            
         }
         ul{
             list-style-type: none;
@@ -28,8 +35,16 @@
             justify-content: space-evenly;
         }
         marquee{
-            background-color: navy;
-            color: goldenrod;
+            background-color: rgba(255, 255, 255, 0.831);
+            color: green;
+        }
+        audio{
+            background-color:orange;
+        }
+        #two{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
         }
     </style>
          <body>
@@ -42,12 +57,26 @@
             <li>Contact Us</li>
          </ul>
                <marquee>
-                   <h1>🙏🙏🙏🙏Welcome to India🙏🙏🙏🙏</h1>
+                   <h1>🙏🙏Welcome to India🙏🙏</h1>
                </marquee>  
                <br><br>
          <div id="one">
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/35npVaFGHMY?si=u6PfnW2fUPYwviHO&autoplay=1&mute=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/cOa97mBh8co?si=TMUfzqpwXIubrm60&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-         </div>
+           <iframe width="500" height="315" src="https://www.youtube.com/embed/35npVaFGHMY?si=u6PfnW2fUPYwviHO&autoplay=1&mute=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/cOa97mBh8co?si=TMUfzqpwXIubrm60&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+         </div><br><br>
+         <center>
+        <div>
+             <audio controls autoplay loop>
+                <source src="audio.mp3" type="audio/mp3"></source>
+             </audio>
+        </div>
+    </center>
+            <br><br>
+    <div id="two">
+            
+            <img src="soldier.jpg" alt="" width="480" height="150" style>
+                <img src=" https://insidetheindia.wordpress.com/wp-content/uploads/2015/01/one-nation-many-voices.jpg" alt="" width="400" style="margin-left: 200px;">
+        </div>
     </body>
 </html>
